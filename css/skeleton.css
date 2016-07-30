@@ -54,18 +54,11 @@
   .logo {
     margin-right: 1%;
     width: 60px;
-    opacity: .85;
-    -moz-transition: opacity 200ms ease-in;
-    -o-transition:opacity 200ms ease-in;
-    -webkit-transition: opacity 200ms ease-in;
-    transition: opacity 200ms ease-in;
-    transform: scale(.8);
+    opacity: .85;    
     -webkit-transform: scale(.8);
+    transform: scale(.8);
   }
 
-  .logo:hover {
-    opacity: 1;
-  }
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -208,7 +201,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #eff7fc; }
+  color: #eff7fc;
+  -webkit-transition: opacity 150ms ease-in;
+  -moz-transition: opacity 150ms ease-in ;
+  -o-transition: opacity 150ms ease-in;
+  transition: opacity 150ms ease-in; }
 a:hover {
   color: #eff7fc;
   opacity: .7; }
