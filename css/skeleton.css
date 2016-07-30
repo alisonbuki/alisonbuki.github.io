@@ -10,6 +10,7 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+- My custom classes
 - Grid
 - Base Styles
 - Typography
@@ -25,6 +26,46 @@
 - Media Queries
 */
 
+/* My custom classes
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+  .bio {
+    font-size: 1.9rem;
+  }
+
+
+  .name {
+    font-weight: bold; 
+    letter-spacing: .2rem;
+  }
+
+  .auroral-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+
+
+  /*logos*/
+
+  .logos {
+    /*display: inline-block;*/
+  }
+
+  .logo {
+    margin-right: 1%;
+    width: 60px;
+    opacity: .85;
+    -moz-transition: opacity 200ms ease-in;
+    -o-transition:opacity 200ms ease-in;
+    -webkit-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+  }
+
+  .logo:hover {
+    opacity: 1;
+  }
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -41,34 +82,6 @@
   float: left;
   box-sizing: border-box; }
 
-  /*auroral container*/
-  .auroral-container {
-    position: relative;
-    display: block;
-    overflow: hidden;
-  }
-
-  /*background*/
-  .background {
-    background-color: #186696;
-    background-size: cover;
-  }
-
-  /*logos*/
-
-  .logos {
-    display: inline-block;
-  }
-
-  .logo {
-    padding: 3%;
-    width: 60px;
-    opacity: .85;
-  }
-
-  .logo:hover {
-    opacity: 1;
-  }
   
 
 /* For devices larger than 400px */
@@ -195,9 +208,10 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #eff7fc; }
 a:hover {
-  color: #0FA0CE; }
+  color: #eff7fc;
+  opacity: .7; }
 
 
 /* Buttons
