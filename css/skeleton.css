@@ -91,16 +91,14 @@
 /*Mobile devices, landscape*/
 @media (orientation: landscape) and (max-width: 775px) {
   .content {
-    margin-top: 3%;
-    overflow: visible;
-  }
+    margin-top: 2%;
+      }
 }
 
 /*Stupid iPhone5 landscape*/
 @media (orientation: landscape) and (max-width: 570px) {
   .content {
     margin-top: .5%;
-    overflow: visible;
   }
 }
 
