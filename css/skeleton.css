@@ -91,7 +91,7 @@
 /*Mobile devices, landscape*/
 @media (orientation: landscape) and (max-width: 775px) {
   .content {
-    margin-top: 5%;
+    margin-top: 3%;
   }
 }
 
