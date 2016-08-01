@@ -28,6 +28,13 @@
 
 /* My custom classes
 ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+  .content {
+    margin-top: 40%; 
+    padding: 10%; 
+    color:#eff7fc; 
+    opacity:.85
+  }
+
   .bio {
     font-size: 1.9rem;
   }
@@ -53,11 +60,62 @@
 
   .logo {
     margin-right: 1%;
-    width: 60px;
-    opacity: .85;    
+    opacity: .85;
+    width: 60px;    
     -webkit-transform: scale(.8);
     transform: scale(.8);
   }
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Smaller phones portrait*/
+@media (max-width: 420px){
+  .logo {
+    margin-right: 0%;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+  .content { 
+    margin-top: 50%;
+    padding: 5%; 
+  }
+  .bio {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+/*Mobile devices, landscape*/
+@media (orientation: landscape) and (max-width: 775px) {
+  .content {
+    margin-top: 5%;
+  }
+}
+
+/*Stupid iPhone5 landscape*/
+@media (orientation: landscape) and (max-width: 570px) {
+  .content {
+    margin-top: .5%;
+  }
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
 
 
 /* Grid
@@ -440,27 +498,4 @@ hr {
   clear: both; }
 
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
 
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
