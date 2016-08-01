@@ -91,16 +91,10 @@
 /*Mobile devices, landscape*/
 @media (orientation: landscape) and (max-width: 775px) {
   .content {
-    margin-top: 2%;
+    margin-top: 0%;
       }
 }
 
-/*Stupid iPhone5 landscape*/
-@media (orientation: landscape) and (max-width: 570px) {
-  .content {
-    margin-top: .5%;
-  }
-}
 
 /*Weird browser dimensions?*/
 @media (max-height: 690px) and (min-width: 769px){
