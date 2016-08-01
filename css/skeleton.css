@@ -92,6 +92,7 @@
 @media (orientation: landscape) and (max-width: 775px) {
   .content {
     margin-top: 3%;
+    overflow: visible;
   }
 }
 
@@ -99,6 +100,7 @@
 @media (orientation: landscape) and (max-width: 570px) {
   .content {
     margin-top: .5%;
+    overflow: visible;
   }
 }
 
