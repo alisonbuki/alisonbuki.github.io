@@ -36,13 +36,14 @@
   }
 
   .bio {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
 
 
   .name {
     font-weight: bold; 
     letter-spacing: .2rem;
+    font-size: 5.5rem
   }
 
 
@@ -82,24 +83,41 @@
   }
 }
 
+/*Tablet devices, portrait*/
+
+@media (orientation: portrait) and (min-width: 590px) and (max-width: 1040px){
+  .content {
+    margin-top: 60%;
+      }
+}
+
 /*Mobile devices, landscape*/
 @media (orientation: landscape) and (max-width: 775px) {
   .content {
     margin-top: 0%;
       }
+  .bio {
+    font-size: 1.8rem;
+  }
 }
 
 
 /*Weird browser dimensions?*/
-@media (max-height: 690px) and (min-width: 769px){
+@media (max-height: 700px) and (min-width: 769px){
   .content {
     margin-top: 20%;
+  }
+  .bio {
+    font-size: 1.8rem;
   }
 }
 
 @media (max-height: 500px) and (min-width: 750px){
   .content {
     margin-top: 10%;
+  }
+  .bio {
+    font-size: 1.8rem;
   }
 }
 
