@@ -4,10 +4,13 @@
  * copyright @colossal 2015
  */
 
-.block {
- overflow: hidden;
+.name {
+  color: white;
 }
-
+.block {
+  overflow: hidden;
+  background-color: transparent;
+}
 
 /* navbar */
 .app-navbar {
