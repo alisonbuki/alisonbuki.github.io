@@ -48,9 +48,9 @@ a:hover, a:active, a:visited {
 }
 
 .logos img {
-  height: 33px;
+  height: 30px;
   opacity: .85;
-  padding-bottom: 6px;
+  padding-bottom: 4px;
   /*border: 2px solid #eff7fc;
   border-radius: 50%;
   padding: 9px;*/
