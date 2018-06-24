@@ -16,6 +16,8 @@ export class Game {
     // create BJS scene obj
     this._scene = new Scene(this._engine);
 
+    this._scene.clearColor = new BABYLON.Color4(0.01, 0.03, 0.05, 1.0);
+
     // create a FreeCamera, and set its position to (x:0, y:5, z:-10)
     this._camera = new ArcRotateCamera('camera1', 0, 0, 10, new Vector3(0, 0, 0), this._scene);
 
@@ -40,7 +42,7 @@ export class Game {
     mat.diffuseColor = new BABYLON.Color3(0.2, 0.7, 1.0);
 
     //make polyhedron
-    let fig = MeshBuilder.CreatePolyhedron('fig1', {custom: TruncatedIcosidodecahedron, size: 3}, this._scene);
+    let fig = MeshBuilder.CreatePolyhedron('fig1', {custom: TruncatedIcosidodecahedron, size: 2}, this._scene);
     fig.material = mat;
     fig.position.y = 1;
 
