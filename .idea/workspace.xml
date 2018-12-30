@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a05161e-8c49-4922-89ba-0c8c4d16df4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-bold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-bold.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-bold.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-bold.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-minimal.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-minimal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-minimal.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-startup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-startup.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-startup.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit-startup.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/dist/toolkit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/application-bold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/application-minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/application-startup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/toolkit-bold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/toolkit-minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/css/toolkit-startup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/fonts/toolkit-entypo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/fonts/toolkit-entypo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/fonts/toolkit-entypo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/fonts/toolkit-entypo.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/js/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/docs/assets/js/toolkit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/fonts/toolkit-entypo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/fonts/toolkit-entypo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/fonts/toolkit-entypo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/fonts/toolkit-entypo.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/bootstrap/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/custom/enter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/custom/image-grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/custom/stage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/js/custom/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/bootstrap/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/components.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/alerts-custom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/buttons-custom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/buttons-outline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/buttons-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/callouts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/carousel-light.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/container-custom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/docs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/featured-list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/forms-custom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/iconlist.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/mixins/buttons-outline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/nav-bordered.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/nav-heading.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/navbar-transparent.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/navbar-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/panels-bold.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/pull-quote.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/stage.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/statcard.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/syntax.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/text-inherit.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/text-ribbon.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/type-custom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/utilities-spacer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/custom/zoom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/docs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/toolkit-bold.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/toolkit-minimal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/toolkit-startup.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/variables-minimal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-theme/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/css/auroral.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/min/auroral.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/scss/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/scss/_backgrounds.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/scss/_config.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/scss/_stars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/auroral/scss/auroral.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/codepen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/BukiResume0603.pdf" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="alisonbuki.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alisonbuki.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alisonbuki.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alisonbuki.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alisonbuki.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alisonbuki.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a05161e-8c49-4922-89ba-0c8c4d16df4d" name="Default Changelist" comment="" />
+      <created>1546204780001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546204780001</updated>
+      <workItem from="1546204782390" duration="1440000" />
+      <workItem from="1546207289028" duration="778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2218000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20976491" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="TypeScript" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32987553" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Gulp" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.20735383" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/buki-port/src/app/home/home.component.html" />
+    <entry file="file://$PROJECT_DIR$/buki-port/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/buki-port/src/app/home/home.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/buki-port/src/app/home/home.component.ts" />
+    <entry file="file://$PROJECT_DIR$/buki-port/src/app/classes/game.ts" />
+    <entry file="file://$PROJECT_DIR$/buki-port/src/environments/environment.ts" />
+    <entry file="file://$PROJECT_DIR$/buki-port/package.json" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
