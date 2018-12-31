@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { Game } from '.././classes/game';
+import { Game } from '../classes/game';
 
 declare var babylonjs;
 

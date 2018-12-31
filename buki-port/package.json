@@ -21,7 +21,11 @@
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "babylonjs": "^3.3.0",
+    "babylonjs-loaders": "^3.3.0",
+    "cannon": "^0.6.2",
     "core-js": "^2.5.4",
+    "earcut": "^2.1.4",
+    "oimo": "^1.0.9",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
