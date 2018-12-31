@@ -1,10 +1,14 @@
 {
   "name": "alisonbuki.github.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "my website",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm-run-all --parallel start watch",
+    "start": "serve public"
   },
   "repository": {
     "type": "git",
@@ -21,7 +25,19 @@
   },
   "homepage": "https://github.com/alisonbuki/alisonbuki.github.io#readme",
   "devDependencies": {
+    "babylonjs-loaders": "^3.3.0",
+    "cannon": "^0.6.2",
+    "earcut": "^2.1.4",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.0.0"
+    "gulp-sass": "^3.0.0",
+    "oimo": "^1.0.9",
+    "rollup": "^1.0.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^3.0.0",
+    "serve": "^10.1.1"
+  },
+  "dependencies": {
+    "babylonjs": "^3.3.0"
   }
 }
