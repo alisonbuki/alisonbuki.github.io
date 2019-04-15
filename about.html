@@ -39,6 +39,22 @@
         font-weight: normal;
         src: url("assets/CooperHewitt-Book.woff") format("woff");
       }
+
+      @font-face {
+        font-display: swap;
+        font-family: "Cooper Hewitt Book";
+        font-style: italic;
+        font-weight: normal;
+        src: url("assets/CooperHewitt-BookItalic.woff") format("woff");
+      }
+
+      @font-face {
+        font-display: swap;
+        font-family: "Cooper Hewitt Semibold";
+        font-style: normal;
+        font-weight: normal;
+        src: url("assets/CooperHewitt-Semibold.woff") format("woff");
+      }
     }
 
     body {
@@ -52,32 +68,106 @@
       box-sizing: border-box;
     }
 
-    body, html {
+    h3 {
+      font-family: "Cooper Hewitt Semibold", "Roboto", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", Helvetica, sans-serif;
+      margin: 8px 0;
+      padding-bottom: 2px;
+    }
+
+    a, a:visited {
+      color: #A5AF45;
+      transition: .15s ease-in;
+    }
+
+    a:hover, a:focus, a:active {
+      color: #4545AF;
+      opacity: .8;
+    }
+
+    body,
+    html {
       height: 100%;
       display: grid;
     }
 
     .main-container {
       padding: 24px;
+      margin: 0 auto;
+
+    }
+
+    .logo-container {
+      text-align: center;
     }
 
     .ab-yellow {
-      width: 300px;
+      width: 363px;
       margin: 24px 0;
       max-width: 100%;
     }
 
-    .about-container  {
+    .about-container {
       max-width: 700px;
     }
+
     .about {
       text-align: left;
       opacity: .9;
       line-height: 1.5;
     }
 
+    .project-container {
+      margin-top: 24px;
+      max-width: 700px;
+      text-align: left;
+    }
+
+    .thumb {
+      max-width: 363px;
+      margin: 24px 24px 12px 0px;
+    }
+
+    .thumb-img {
+      max-width: 100%;
+    }
+
+    .text {
+      display: inline-block;
+      line-height: 1.35;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    .project-container-alt {
+      margin-top: 24px;
+      max-width: 700px;
+      text-align: right;
+    }
+
+    .thumb-alt {
+      max-width: 363px;
+      margin: 12px 0px 12px 24px;
+      float: right;
+    }
+
+    .footer {
+      margin-top: 48px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .credit {
+      font-size: 13px;
+    }
+
     @media (max-width: 768px) {
       .about {
+        font-size: 16px;
+      }
+      .text {
         font-size: 16px;
       }
     }
@@ -92,19 +182,78 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <div class="main-container" align="center" valign="center">
+  <div class="main-container">
+    <div class="logo-container">
       <a href="index.html">
-        <img src="assets/AlisonBuki-yellow.svg" class="ab-yellow" alt="Alison Buki"/>
+        <img src="assets/AlisonBuki-yellow.svg" class="ab-yellow" alt="Alison Buki" />
       </a>
-      <div class="about-container">
-        <p class="about">
-          I am a creative frontend developer based in Washington, D.C. I love collaborating closely with other smart and kind individuals to make beautiful experiences for the web.
-        </p>
-        <p class="about">
-          Here are some recent projects I am proud of:
+    </div>
+    <div class="about-container">
+      <p class="about">
+        I am a creative frontend developer based in Washington, D.C. I love collaborating closely with other smart and kind people to make beautiful, informative experiences for the web.
+      </p>
+      <p class="about">
+        Here are some recent projects I am proud of:
+      </p>
+    </div>
+    <div class="project-container">
+      <div class="thumb">
+        <a href="https://www.theatlantic.com/year-in-review/2018/" target="_blank">
+          <img src="assets/atlantic-year-in-review.png" class="thumb-img" alt="the atlantic 2018 year in review" />
+        </a>
+      </div>
+      <div class="text">
+        <a href="https://www.theatlantic.com/year-in-review/2018/" target="_blank">
+          <h3>2018: A Year in Review</h3>
+        </a>
+        <em>
+          The Atlantic
+        </em>
+        <p>
+          Landing page for <em>The Atlantic</em>’s 2018 retrospective. HTML/CSS/Javascript, including fun things like CSS Grid & the Intersection Observer API.
         </p>
       </div>
     </div>
+    <div class="project-container-alt">
+      <div class="thumb-alt">
+        <a href="https://www.sciencenews.org/article/opioid-crisis-overdose-death" target="_blank">
+          <img src="assets/science-news-opioids.png" class="thumb-img" alt="opioids story" />
+        </a>
+      </div>
+      <div class="text">
+        <a href="https://www.sciencenews.org/article/opioid-crisis-overdose-death" target="_blank">
+          <h3>Opioids Kill: Here's How an Overdose Shuts Down Your Body</h3>
+        </a>
+        <em>
+          Science News
+        </em>
+        <p>
+          Interactive explanatory piece for <em>Science News</em> about how an opioid overdose affects different bodily systems. SVG animations triggered on scroll. Winner of the <a href="https://www.foliomag.com/go/2018-eddie-and-ozzie-awards/#visual-digital-storytelling" target="_blank">2018 Ozzie Award for Visual Digital Storytelling</a>.
+        </p>
+      </div>
+    </div>
+    <div class="project-container">
+      <div class="thumb">
+        <a href="https://www.sciencenews.org/article/future-total-solar-eclipses/" target="_blank">
+          <img src="assets/science-news-eclipse.png" class="thumb-img" alt="eclipse story" />
+        </a>
+      </div>
+      <div class="text">
+        <a href="https://www.sciencenews.org/article/future-total-solar-eclipses/" target="_blank">
+          <h3>Here are the paths of the next 15 total solar eclipses</h3>
+        </a>
+        <em>
+          Science News
+        </em>
+        <p>
+          Interactive 3D data visualization for <em>Science News</em> depicting the paths of future solar eclipses on a zoomable globe. GeoJSON data (NASA) plotted on a 3D globe using CesiumJS & Bing maps API, rendered with WebGL.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <sub class="credit">Copyright (c) 2019 Alison Buki. All rights reserved.</sub>
+    </div>
+  </div>
   <!-- JS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src='js/index.js'></script>
