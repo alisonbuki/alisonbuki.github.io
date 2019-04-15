@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Alison Buki</title>
+  <title>Alison Buki | About</title>
   <meta name="description" content="Alison Buki is a creative frontend developer living in Washington, D.C.">
   <meta name="author" content="Alison Buki">
 
@@ -59,14 +59,27 @@
 
     .main-container {
       padding: 24px;
-      margin: auto;
     }
 
-    .ab {
-      width: 100%;
+    .ab-yellow {
+      width: 300px;
+      margin: 24px 0;
+      max-width: 100%;
+    }
+
+    .about-container  {
+      max-width: 700px;
+    }
+    .about {
+      text-align: left;
+      opacity: .9;
+      line-height: 1.5;
     }
 
     @media (max-width: 768px) {
+      .about {
+        font-size: 16px;
+      }
     }
   </style>
   <link href="assets/" rel="stylesheet" type="text/css">
@@ -80,13 +93,17 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
     <div class="main-container" align="center" valign="center">
-      <a href="about.html">
-        <img src="assets/AlisonBuki.svg" class="ab" alt="Alison Buki"/>
-        <!--<img src="assets/AlisonBuki.svg" class="ab" alt=""/>
-        <img src="assets/AlisonBuki.svg" class="ab" alt=""/>
-        <img src="assets/AlisonBuki.svg" class="ab" alt=""/>
-        <img src="assets/AlisonBuki.svg" class="ab" alt=""/>-->
+      <a href="index.html">
+        <img src="assets/AlisonBuki-yellow.svg" class="ab-yellow" alt="Alison Buki"/>
       </a>
+      <div class="about-container">
+        <p class="about">
+          I am a creative frontend developer based in Washington, D.C. I love collaborating closely with other smart and kind individuals to make beautiful experiences for the web.
+        </p>
+        <p class="about">
+          Here are some recent projects I am proud of:
+        </p>
+      </div>
     </div>
   <!-- JS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
